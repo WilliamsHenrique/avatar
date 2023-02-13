@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+    <title>Avatar</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container">
+            <h1>
+                <img class="header__logo" src="./dist/images/avatar.png" alt="">
+            </h1>
+            <ul class="header__links">
+                <li class="header__links__item">
+                    <a href="#sagrado" class="button button--secondery">Ambientes Sagrados</a>
+                </li>
+                <li class="header__links__item">
+                    <a href="#fauna" class="button button--secondery">Fauna</a>
+                </li>
+                <li class="header__links__item">
+                    <a href="#flora" class="button button--secondery">Flora</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <div class="container">
+        <div id="pandora" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#pandora" data-bs-slide-to="0" class="active" aria-current="true"
+                    aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#pandora" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#pandora" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#pandora" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#pandora" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#pandora" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" data-bs-interval="5000">
+                    <img src="./dist/images/carrosel/slide 1.jpg" class="d-block w-100" data-bs-interval="1500" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="./dist/images/carrosel/slide 6.jpg" class="d-block w-100" data-bs-interval="1500" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="./dist/images/carrosel/slide 7.jpg" class="d-block w-100" data-bs-interval="1500" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="./dist/images/carrosel/slide 3.jpg" class="d-block w-100" data-bs-interval="1500" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="./dist/images/carrosel/slide 4.jpg" class="d-block w-100" data-bs-interval="1500" alt="">
+                </div>
+                <div class="carousel-item">
+                    <img src="./dist/images/carrosel/slide 5.png" class="d-block w-100" data-bs-interval="1500" alt="">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#pandora" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#pandora" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div class="row row-cols-2 row-cols-md-2 g-4" id="sagrado">
+        <div class="col">
+            <div class="card">
+                <img src="./dist/images/ambiente/arvore.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">A árvore das almas</h5>
+                    <p class="card-text">A Árvore das Almas é um local sagrado para o clã Omatikaya Na'vi e sua conexão
+                        mais próxima com Eywa. No centro de um enclave em forma de caldeira está uma árvore alta,
+                        semelhante a um salgueiro, com gavinhas bioluminescentes e um grande sistema radicular que se
+                        irradia. Os Na'vi ligam-se a Eywa através da árvore para pedir orientação, realizar um rito de
+                        cura ou expressar gratidão por manter o equilíbrio da vida.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col">
+            <div class="card">
+                <img src="./dist/images/ambiente/espiritos.webp" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">Árvore do Espírito Metkayina</h5>
+                    <p class="card-text">A Árvore Espiritual é um local sagrado para o Povo do Arrecife do clã Metkayina
+                        situado nas profundezas das águas da Enseada dos Ancestrais. Semelhante à Árvore das Vozes ou à
+                        Árvore das Almas para o clã Omatikaya, a Árvore dos Espíritos é o principal ponto de acesso dos
+                        Metkayina à rede neural de Ewya, fornecendo memórias, “espíritos” armazenados de seus ancestrais
+                        e até oxigênio, permitindo sessões prolongadas debaixo d'água.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fauna" id="fauna">
+        <h2 class="fauna__container">Fauna</h2>
+
+        <div class="fauna__container__pandora"></div>
+
+        <div class="row row-cols-3 row-cols-md-12 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./dist/images/fauna/akula.webp" class="card-img-top" alt="akula">
+                    <div class="card-body">
+                        <h5 class="card-title">Akula</h5>
+                        <p class="card-text">O Akula é o maior predador marinho de recife, completo com dentes afiados,
+                            armadura corporal segmentada e um apetite profano. Como não respira ar, pode ficar à
+                            espreita lá embaixo em uma estratégia de emboscada, como um tubarão-branco terrestre. O
+                            maior desafio para os caçadores Na'vi sublitorais e pelágicos é expulsar, ou matar, um
+                            grande akula adulto que decidiu incluir sua aldeia em sua área de caça.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./dist/images/fauna/banshee da montanha.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Banshee da Montanha
+                        </h5>
+                        <p class="card-text">Reverenciado pelos Na'vi em suas vidas, conhecimento e história, o ikran ou
+                            banshee como o RDA o chamou (por seu grito penetrante), é a pedra angular do modo de vida
+                            dos Na'vi. Os Omatikaya têm uma conexão particular com os banshees das montanhas que vivem
+                            nas profundezas das Montanhas Aleluia.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./dist/images/fauna/gill manto.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Gill Manto
+                        </h5>
+                        <p class="card-text">Um parceiro valioso nos oceanos do Povo do Recife, o manto branquial
+                            diáfano e semitransparente permite que os Na'vi estendam seu tempo debaixo d'água. Uma vez
+                            que um Na'vi se liga ao invertebrado, o manto branquial serve como um traje de mergulho
+                            biológico, fornecendo oxigênio ao Na'vi ligado por meio de sua conexão kuru.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./dist/images/fauna/ilu.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Ilu</h5>
+                        <p class="card-text">Alguns dos nadadores mais impressionantes e ágeis do recife, os ilu podem
+                            ser comumente encontrados adjacentes aos assentamentos de recifes Na'vi. Essas criaturas que
+                            respiram ar são capazes de serem montadas por Marine Na'vi, semelhantes aos cavalos gigantes
+                            da floresta tropical e das planícies. No entanto, ao contrário de um ikran, os ilu não
+                            desenvolvem laços individuais com os cavaleiros, portanto, um cavaleiro experiente pode
+                            montar qualquer ilu que esteja familiarizado com o vínculo kuru.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./dist/images/fauna/shimmyly.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Shimmyfly</h5>
+                        <p class="card-text">Os Shimmyflies iridescentes e brilhantes habitam campos de flores no Vale
+                            Mo'ara, uma região vizinha da floresta tropical habitada por Omatikaya. As larvas de
+                            shimmyflies iniciam uma longa jornada para esses campos. Quando sua jornada atingir o ápice,
+                            eles se encerrarão em suas crisálidas e emergirão pouco tempo depois como adultos
+                            brilhantes. Além de suas oito asas e tamanho grande, sua anatomia, ciclo de vida e
+                            comportamento são semelhantes aos das borboletas terrestres. As lagartas Shimmyfly se
+                            alimentam de folhas; enquanto suas contrapartes adultas se alimentam do néctar das flores.
+                            Por gerações, os Na'vi usaram as asas de Shimmyflies falecidos em sua ornamentação pessoal e
+                            decoração de cocares, colares e outras joias.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./dist/images/fauna/skimwink.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Skimwing</h5>
+                        <p class="card-text">Skimwings também conhecidos como tsurak pelos Na'vi são poderosas e grandes
+                            criaturas marinhas semelhantes aos peixes voadores da Terra. Uma presença indomável acima e
+                            abaixo da água, o skimwing usa brânquias enquanto está debaixo d'água, mas respira ar por
+                            duas narinas no topo de sua cabeça durante voos prolongados. Com a ajuda da baixa gravidade
+                            de Pandora e alta densidade do ar, as barbatanas laranja do tsurak se desenrolam de forma
+                            semelhante a um acordeão, permitindo que o skimwing e seu cavaleiro deslizem quando
+                            estiverem acima da água. Enquanto está debaixo d'água, as barbatanas se dobram para o lado
+                            para formar uma forma elegante de torpedo. Skimwings exigem alta manutenção e são muito
+                            exigentes com quem os monta, então apenas os cavaleiros Na'vi mais avançados e fortes tentam
+                            domá-los.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./dist/images/fauna/thanator.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Thanator</h5>
+                        <p class="card-text">O thanator é o predador mais temível da floresta tropical. Reminiscente de
+                            uma pantera terráquea, este enorme e poderoso onívoro é único em sua habilidade de dominar
+                            seu território e infligir medo nas maiores e mais ferozes criaturas de Pandora. Os
+                            Omatikaya, famosos por sua coragem, ficam abalados com a aproximação do thanator e não o
+                            celebram com dança ou música.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./dist/images/fauna/tulkun.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">tulkun</h5>
+                        <p class="card-text">De toda a fauna marinha que habita o recife de Metkayina, apenas os enormes
+                            e altamente inteligentes tulkuns que habitam o mar são verdadeiramente sencientes. Na
+                            verdade, os tulkun possuem seus próprios nomes e uma rica história e cultura familiar, bem
+                            como música e poesia sofisticadas. Eons atrás, os tulkun se engajaram em longas batalhas
+                            sangrentas que duraram gerações. Eventualmente, os tulkun mudaram seus modos e coletivamente
+                            juraram uma vida de pacifismo absoluto. Com sua espessa blindagem protegendo-os dos
+                            agressores, os tulkun não precisam de retaliação violenta.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="./dist/images/fauna/lancador.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">lançador</h5>
+                        <p class="card-text">Uma das criaturas mais estranhas e perigosas já descobertas em Pandora. Ao
+                            sentir a presa, a criatura erguerá o pescoço para trás, pronta para atacar. De maneira
+                            incomum, o lançador lança o pescoço para a frente e separa completamente a cabeça em forma
+                            de dardo do corpo enquanto voa em direção à presa. Uma vez que a cabeça venenosa penetra em
+                            seu alvo, ela emite um ruído agudo para o corpo seguir. A cabeça e o corpo se reconectam
+                            usando um kuru interno. As duas partes do lançador são, na verdade, pai e filho em um
+                            relacionamento simbiótico. Uma vez que a cabeça esteja totalmente crescida, ela se desprende
+                            e acasala. Em seguida, ele se metamorfoseia em um lançador menor, com sua própria cabeça de
+                            prole. Incapaz de se alimentar, o corpo original morre.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="fauna" id="flora">
+            <h2 class="fauna__container">Flora</h2>
+
+            <div class="fauna__container__pandora"></div>
+
+            <div class="row row-cols-sm-3 row-cols-md-12 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./dist/images/flora/anemona.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">margarida anêmona
+                            </h5>
+                            <p class="card-text">Presas inocentes não são páreo para a comedora de peixes Daisy Anemone.
+                                Ele se baseia na eletrolocalização para detectar campos bioelétricos descarregados por
+                                outros grandes peixes predadores. Uma vez que seu alvo está ao alcance, a coluna da
+                                anêmona se estende para agarrar sua presa antes de liberar um veneno paralisante.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./dist/images/flora/helicoradiano.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Flaska Reclinada</h5>
+                            <p class="card-text">A flaska reclinata é uma das plantas mais importantes de Pandora.
+                                Desempenha um papel importante na lua, ajudando a desintoxicar a atmosfera. Gases
+                                tóxicos (principalmente de origem vulcânica) são absorvidos pelo corpo da planta, onde
+                                se dissolvem em uma poça de líquido aquoso que se acumula em seu interior. Essa “sopa”
+                                primitiva aumenta periodicamente a pressão e a temperatura e é esguichada em uma pluma
+                                não tóxica e purificada do topo da planta.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./dist/images/flora/nom.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">helicoradiano</h5>
+                            <p class="card-text">Uma das floras mais icônicas de Pandora, o Helicoradian se enrola e se
+                                retrai rapidamente no solo ao menor toque. A planta cor de salmão geralmente cresce em
+                                grupos e se retrairá como um grupo inteiro se apenas um for acionado.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./dist/images/flora/panopyra.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Delícia de Nom</h5>
+                            <p class="card-text">Nom's Delight é um coral de vida livre em forma de disco que comumente
+                                habita o fundo do mar nos recifes de Pandora. É um símbolo para os exploradores
+                                oceânicos da rica biodiversidade encontrada debaixo d'água.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./dist/images/flora/reclinada.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Panopyra</h5>
+                            <p class="card-text">A panopyra, apelidada de “flor do amor” pelos cientistas terráqueos, é
+                                uma forma de vida incomum que possui características que lembram uma água-viva. Não se
+                                assemelha a nenhum grupo taxonômico de plantas encontrado na Terra e parece representar
+                                uma nova linha de evolução em direção a um sistema nervoso primitivo. Os Na'vi coletam o
+                                líquido que fica no corpo e o utilizam para uma bebida nutritiva e curativa. As hastes
+                                flexíveis são usadas para fazer redes, armadilhas e outros itens tecidos.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="./dist/images/flora/woodsprites.webp" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Woodsprites</h5>
+                            <p class="card-text">Conhecidos pelos Na'vi como atokirina, os Woodsprites são sementes da
+                                Árvore das Almas. Os Na'vi reverenciam os espíritos da floresta e os consideram
+                                portadores de presságios e sinais de santidade. Enquanto os woodsprites têm a aparência
+                                de águas-vivas da Terra, eles flutuam ao vento semelhantes às sementes de dente-de-leão.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <footer>
+            &copy; Desenvolvido por Williams Henrique - 2023
+        </footer>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>

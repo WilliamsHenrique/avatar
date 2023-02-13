@@ -1,0 +1,32 @@
+.fauna {
+
+    padding: 46px 104px 40px;
+
+    &__container {
+        font-family: Papyrus;
+        font-weight: bold;
+        font-size: 2.5rem;
+        color: #243B53;
+        padding-top: 3rem;
+        display: flex;
+        justify-content: center;
+
+        &__pandora {
+            padding: 1.5rem;
+            bottom: 2rem;
+            display: block;
+            height: 3px;
+            position: relative;
+            width: 100%;
+            background-image: url(https://static-mh.content.disney.io/matterhorn/assets/avatar/header-underline-1600-d2d5bd2e2476.svg);
+            background-repeat: no-repeat;
+            background-position: right;
+        }
+
+        @media (max-width: 768px) {
+            padding: 0 12px 0 20px;
+
+        }
+    }
+
+}
